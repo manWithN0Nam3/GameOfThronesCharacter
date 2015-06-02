@@ -15,6 +15,9 @@
 		9706207B1B1E41440064E2DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9706207A1B1E41440064E2DC /* Images.xcassets */; };
 		9706207E1B1E41440064E2DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9706207C1B1E41440064E2DC /* LaunchScreen.xib */; };
 		9706208A1B1E41440064E2DC /* GameOfThronesCharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 970620891B1E41440064E2DC /* GameOfThronesCharacterTests.m */; };
+		970620951B1E428A0064E2DC /* GOT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970620941B1E428A0064E2DC /* GOT.m */; };
+		970620981B1E42DE0064E2DC /* RetiredGOT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970620971B1E42DE0064E2DC /* RetiredGOT.m */; };
+		9706209A1B1E454D0064E2DC /* gameofthrones123.plist in Resources */ = {isa = PBXBuildFile; fileRef = 970620991B1E454D0064E2DC /* gameofthrones123.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		970620831B1E41440064E2DC /* GameOfThronesCharacterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesCharacterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970620881B1E41440064E2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		970620891B1E41440064E2DC /* GameOfThronesCharacterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfThronesCharacterTests.m; sourceTree = "<group>"; };
+		970620931B1E428A0064E2DC /* GOT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOT.h; sourceTree = "<group>"; };
+		970620941B1E428A0064E2DC /* GOT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOT.m; sourceTree = "<group>"; };
+		970620961B1E42DE0064E2DC /* RetiredGOT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetiredGOT.h; sourceTree = "<group>"; };
+		970620971B1E42DE0064E2DC /* RetiredGOT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetiredGOT.m; sourceTree = "<group>"; };
+		970620991B1E454D0064E2DC /* gameofthrones123.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = gameofthrones123.plist; path = ../../../../../../../Downloads/gameofthrones123.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 			children = (
 				9706206E1B1E41440064E2DC /* AppDelegate.h */,
 				9706206F1B1E41440064E2DC /* AppDelegate.m */,
+				970620961B1E42DE0064E2DC /* RetiredGOT.h */,
+				970620971B1E42DE0064E2DC /* RetiredGOT.m */,
+				970620931B1E428A0064E2DC /* GOT.h */,
+				970620941B1E428A0064E2DC /* GOT.m */,
 				970620741B1E41440064E2DC /* ViewController.h */,
 				970620751B1E41440064E2DC /* ViewController.m */,
 				970620771B1E41440064E2DC /* Main.storyboard */,
@@ -99,6 +111,7 @@
 		9706206A1B1E41440064E2DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				970620991B1E454D0064E2DC /* gameofthrones123.plist */,
 				9706206B1B1E41440064E2DC /* Info.plist */,
 				9706206C1B1E41440064E2DC /* main.m */,
 			);
@@ -202,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9706209A1B1E454D0064E2DC /* gameofthrones123.plist in Resources */,
 				970620791B1E41440064E2DC /* Main.storyboard in Resources */,
 				9706207E1B1E41440064E2DC /* LaunchScreen.xib in Resources */,
 				9706207B1B1E41440064E2DC /* Images.xcassets in Resources */,
@@ -222,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970620981B1E42DE0064E2DC /* RetiredGOT.m in Sources */,
+				970620951B1E428A0064E2DC /* GOT.m in Sources */,
 				970620701B1E41440064E2DC /* AppDelegate.m in Sources */,
 				9706206D1B1E41440064E2DC /* main.m in Sources */,
 				970620761B1E41440064E2DC /* ViewController.m in Sources */,
@@ -420,6 +436,7 @@
 				9706208F1B1E41440064E2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		970620901B1E41440064E2DC /* Build configuration list for PBXNativeTarget "GameOfThronesCharacterTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +445,7 @@
 				970620921B1E41440064E2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
